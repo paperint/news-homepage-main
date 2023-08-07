@@ -6,7 +6,7 @@ import hamburger from "../assets/images/icon-menu.svg";
 function Navbar({ isOpen, setIsOpen }) {
   return (
     <>
-      <nav className="flex justify-between max-w-6xl p-6 mx-auto">
+      <nav className="flex justify-between max-w-6xl p-6 mx-auto ">
         <div>
           <img src={logo} alt="logo" className="w-full" />
         </div>
