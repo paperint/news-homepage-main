@@ -40,7 +40,7 @@ function Main({ isOpen }) {
             </div>
           </div>
         </div>
-        <div className="h-full p-6 md:row-span-2 bg-Neutral-veryDarkBlue">
+        <div className="h-full px-6 py-9 md:row-span-2 bg-Neutral-veryDarkBlue md:py-6">
           <h1 className="mb-6 text-4xl font-extrabold text-primary-softOrange">
             New
           </h1>
