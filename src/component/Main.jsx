@@ -11,11 +11,11 @@ function Main({ isOpen }) {
       className={
         isOpen
           ? `max-w-6xl mx-auto bg-Neutral-darkGrayishBlue opacity-50`
-          : `max-w-6xl mx-auto`
+          : `max-w-6xl mx-auto p-6 lg:p-0`
       }
     >
       <div className="grid items-center justify-center w-full grid-cols-1 row-auto gap-6 p-6 md:p-0 md:grid-cols-3 md:grid-rows-3">
-        <div className="flex flex-col w-full gap-5 md:col-span-2 md:row-span-2 ">
+        <div className="flex flex-col justify-start w-full h-full gap-5 md:col-span-2 md:row-span-2">
           <div>
             <picture>
               <source media="(min-width:768px)" srcSet={desktopImage} />
@@ -24,7 +24,7 @@ function Main({ isOpen }) {
           </div>
           <div className="flex flex-col gap-5 md:flex-row">
             <div className="flex-1">
-              <h1 className="text-5xl font-extrabold text-Neutral-veryDarkBlue">
+              <h1 className="text-5xl font-extrabold text-Neutral-veryDarkBlue hover:text-primary-softRed">
                 The Bright Future of Web 3.0?
               </h1>
             </div>
@@ -34,7 +34,7 @@ function Main({ isOpen }) {
                 the power of the platforms back into the hands of the people.
                 But is it really fulfilling its promise?
               </p>
-              <button className="px-4 py-2 tracking-widest w-fit bg-Neutral-veryDarkBlue text-Neutral-offWhite">
+              <button className="px-4 py-2 tracking-widest w-fit bg-Neutral-veryDarkBlue text-Neutral-offWhite hover:bg-primary-softRed mt-7 md:mt-0">
                 Read more
               </button>
             </div>
